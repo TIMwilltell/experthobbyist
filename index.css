@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.hero-coffee {
+  background: #307d99 url(/experthobbyist/assets/coffee_hero_img.png);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.925);
+  background-position: 12% 83%;
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem;
+  padding-top: 3em;
+  font-size: 4rem;
+  font-family: -apple-system, Roboto, "Open Sans", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+h1 span {
+  font-size: 2.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: #1294c4;
+  text-shadow: 1px 2px 3px #2b3b52;
+}
+
+p {
+  font-family: -apple-system, "Open Sans", Oxygen, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 2em 2em;
+  color: #1f1f1f;
+  padding: 1em 1em;
+  font-size: 1.2rem;
+  background-color: #180b000e;
+  border-radius: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+p span {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 730px) {
+  section {
+    margin: 0 4em;
+  }
+  .text-box {
+    margin: 2em 8em;
+  }
+}
+
+@media (min-width: 930px) {
+  .hero-coffee {
+    text-align: left;
+    background-position: left;
+    background-size: cover;
+  }
+  .text-box {
+    margin: 2em 12em;
+  }
+}
+/*# sourceMappingURL=index.css.map */
